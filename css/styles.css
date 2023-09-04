@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+#cabecalho {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.conteudo {
+    flex: 1 0 auto;
+}
+
+#rodape {
+    position: absolute;
+    width: 100%;
+    background-color: #404b5f;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: mintcream;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline blue;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    text-decoration: underline;
+    margin-bottom: -5px;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: mintcream;
+    background-color: #404b5f;
+    padding-left: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: underline dotted;
+}
